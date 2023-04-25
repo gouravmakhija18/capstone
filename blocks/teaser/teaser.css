@@ -48,3 +48,9 @@
 .teaser h2 a {
     color: var(-link-color)
 }
+
+@media (min-width: 900px) {
+    .section > div.teaser-wrapper {
+      max-width: unset;
+    }
+  }
