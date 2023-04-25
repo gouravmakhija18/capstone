@@ -106,7 +106,7 @@ body.activity h1::after {
   border-bottom: 2px solid var(--color-yellow);
 }
 
-body.article h2::after {
+h2::after {
   display: block;
   width: 84px;
   padding-top: 8px;
