@@ -1,0 +1,18 @@
+.artists>ul {
+    grid-template-columns: repeat(auto-fill, minmax(calc(100% /4 - 8px), 1fr));
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-gap: 8px;
+    justify-items: center;
+}
+
+.artist-image img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 164px;
+    width: 164px;
+}
