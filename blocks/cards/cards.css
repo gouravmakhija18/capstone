@@ -11,11 +11,6 @@
   grid-gap: 16px;
 }
 
-.cards >ul >li {
-  border: 1px solid var(--highlight-background-color);
-  background-color: var(--background-color)
-}
-
 .cards .cards-card-body {
   margin: 16px;
 }
@@ -67,6 +62,6 @@
 
 @media (min-width: 900px) {
   .cards.scroll>ul>li {
-    width: calc(100% / 4);
+    grid-template-columns: repeat(auto-fill, minmax(calc(100% /4 - 16px), 1fr));
   }
 }
