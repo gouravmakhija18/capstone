@@ -62,6 +62,9 @@
 
 @media (min-width: 900px) {
   .cards.scroll>ul>li {
+    width: calc(100% / 4);
+  }
+  .cards >ul {
     grid-template-columns: repeat(auto-fill, minmax(calc(100% /4 - 16px), 1fr));
   }
 }
