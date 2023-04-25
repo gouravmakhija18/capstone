@@ -67,12 +67,6 @@
 
 @media (min-width: 900px) {
   .cards.scroll>ul>li {
-    width: calc(100% / 3);
-  }
-}
-
-@media (min-width: 1200px) {
-  .cards.scroll>ul>li {
     width: calc(100% / 4);
   }
 }
