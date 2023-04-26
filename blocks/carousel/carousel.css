@@ -79,6 +79,6 @@ main .carousel-dots button.selected {
 
 @media (min-width: 900px) {
   main .carousel .carousel-text {
-    width: 1200px;
+    width: calc(1200px - 2*28px);
   }
 }

@@ -67,3 +67,7 @@ footer .footer p {
   font-size: var(--body-font-size-xs);
   line-height: 1.25;
 }
+
+footer .icon-wkndlogolight svg {
+  max-width: 128px;
+}
