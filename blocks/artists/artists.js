@@ -15,7 +15,7 @@ function renderResult(block, result){
     result.forEach(({ image_url, name, tags }) => {
       tags = tags.split(",").join(" | ");
       const listElement = document.createElement("li");
-      listElement.className = "artist-name";
+      listElement.className = "artist-name-wrapper";
       // Set the innerHTML of the div to include the JSON data
       listElement.innerHTML = `
         <div class="artist-image">

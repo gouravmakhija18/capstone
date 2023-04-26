@@ -16,3 +16,20 @@
     height: 164px;
     width: 164px;
 }
+
+main .artist-name-wrapper {
+    text-align: center;
+    margin-top: 27px;
+}
+main h3.artist-name {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    font-size: 24px;
+}
+
+main .artist-name p {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    font-size: 14px;
+    text-transform: uppercase;
+}
