@@ -27,7 +27,7 @@ main h3.artist-name {
     font-size: 24px;
 }
 
-main .artist-name p {
+main .artist-name-wrapper p {
     margin-top: 0;
     margin-bottom: 0.25em;
     font-size: 14px;
