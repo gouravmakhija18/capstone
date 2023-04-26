@@ -25,7 +25,7 @@ function renderResult(block, result){
           </picture>
         </div>
         <div class="artist-info-body">
-          <h2 class="title">${name}</h2>
+          <h3 class="artist-name">${name}</h3>
           <p>${tags}</p>
         </div>
       `;
