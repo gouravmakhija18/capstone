@@ -70,4 +70,6 @@ footer .footer p {
 
 footer .icon-wkndlogolight svg {
   max-width: 128px;
+  max-height: 47px;
+  margin-bottom: 20px;
 }
